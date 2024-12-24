@@ -1,0 +1,8 @@
+.Main {
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    background-color: #EEE2DF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

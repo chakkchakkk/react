@@ -1,0 +1,121 @@
+.Cart {
+    padding-bottom: 30px;
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    background-color: #EEE2DF;
+}
+.Cart h1 {
+    color: #B36A5E;
+}
+.Cart p {
+    font-size: 18pt;
+}
+.Cart button {
+    margin: 15px;
+    background-color: #B36A5E;
+    color: #EED7C5;
+    padding: 7px;
+    border: #B36A5E 1px solid;
+    border-radius: 7px;
+    font-size: 16pt;
+}
+.Cart button:hover {
+    cursor: pointer;
+    color: #B36A5E;
+    background-color: #EED7C5;
+    border: #B36A5E 1px solid;
+}
+.cartItem {
+    margin: 20px auto;
+    height: 30vh;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.cartItem img {
+    height: inherit;
+    object-fit: contain;
+}
+.cartItem h3, p {
+    margin: 0%;
+    color: #70423B;
+}
+.cartItem h3 {
+    font-size: 14pt;
+}
+.cartItem p {
+    font-size: 14pt;
+}
+.cartItem button {
+    background-color: #B36A5E;
+    color: #EED7C5;
+    padding: 5px;
+    border: #B36A5E 1px solid;
+    border-radius: 7px;
+    font-size: 10pt;
+}
+.cartItem button:hover {
+    cursor: pointer;
+    color: #B36A5E;
+    background-color: #EED7C5;
+    border: #B36A5E 1px solid;
+}
+@media screen and (max-width: 900px) {
+    .cartItem {
+        height: 20vh;
+    }   
+}
+@media screen and (max-width: 750px) {
+    .cartItem {
+        height: 15vh;
+    }   
+}
+@media screen and (max-width: 650px) {
+    .cartItem {
+        height: 10vh;
+    }   
+}
+#order {
+    margin: 20px auto 0;
+    width: 30vw;
+    background-color: #B36A5E;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+#order h1 {
+    color: #EED7C5;
+    font-size: 18pt
+}
+#order input {
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12pt;
+}
+#order div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#order div input {
+    width: 7vw;
+}
+#order button {
+    margin: 0;
+    padding: 7px;
+    background-color: #EED7C5;
+    border: #EED7C5 1px solid;
+    border-radius: 5px;
+    color: #B36A5E;
+    font-size: 12pt;
+}
+#order button:hover {
+    background-color: #B36A5E;
+    color: #EED7C5;
+}
